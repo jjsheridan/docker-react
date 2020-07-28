@@ -1,6 +1,13 @@
+language: node_js
+node_js:
+  - 8
+  
 sudo: required
 services:
   - docker
 
 before_install:
   - docker build -t tjteru/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true tjteru/docker-react npm run test
