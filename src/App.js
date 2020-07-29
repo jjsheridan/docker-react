@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          To get started, edit src/App.js and save to reload.
+          learn react
         </a>
       </header>
     </div>
