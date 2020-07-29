@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          I was changed!
+          To get started, edit src/App.js and save to reload.
         </a>
       </header>
     </div>
